@@ -1,0 +1,4 @@
+1.Upload the source code in zip format in aws lambda.
+2.copy the contents of conversationamodel.json present in the source code and paste it in the conversational model of Alexa developer portal.
+3.Do the remaining configuration like endpoint mentioning, permissions, account linking etc in developer portal. 
+4.Once all the three steps are done test the skill in developer portal.

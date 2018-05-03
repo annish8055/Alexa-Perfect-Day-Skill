@@ -1,0 +1,1052 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "perfect day",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "motivation",
+                    "slots": [],
+                    "samples": [
+                        "motivation",
+                        "thought",
+                        "motivational thought",
+                        "thought of the day"
+                    ]
+                },
+                {
+                    "name": "todo",
+                    "slots": [
+                        {
+                            "name": "operation",
+                            "type": "OPERATION",
+                            "samples": [
+                                "{operation}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "list",
+                        "to do list",
+                        "do",
+                        "to ",
+                        "to do",
+                        "{operation} to my to do list",
+                        "{operation} my to do list",
+                        "{operation} from my list",
+                        "{operation} to my list",
+                        "{operation} my list",
+                        "{operation} "
+                    ]
+                },
+                {
+                    "name": "stretch",
+                    "slots": [],
+                    "samples": [
+                        "begin stretching",
+                        "start stretching",
+                        "stretching",
+                        "start stretch",
+                        "morning stretch",
+                        "night stretch",
+                        "stretch",
+                        "start the stretch"
+                    ]
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Somrthing",
+                    "slots": [
+                        {
+                            "name": "somethingElse",
+                            "type": "SomethingElse"
+                        }
+                    ],
+                    "samples": [
+                        "{somethingElse}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "SomethingElse",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "meet people"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "meet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit friend"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit doctor"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "renew contract"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "renew"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "replace p c"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "replace"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "buy gift"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "buy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "laptop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "purse"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gift "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "milk"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "butter"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vegi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "need fruits"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fruits"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "chocolates "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "buy vegitables"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "going out"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "going on vacation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pick up at 5 am"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pick up at 2 o clock"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "people are coming at 4 am"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "7 am"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6 pm"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "6 am"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "5 pm"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "4 pm"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "global meet at 4"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "global meet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "finance"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "attend finance meet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "learn h t m l"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "learn node"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "watch today's game"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "watch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fight game"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "field"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "field trip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sunday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "saturday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "friday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "wednesday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tuesday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "monday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sister coming on monday"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "sister"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "brother"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "father in law"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mother in law"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "father"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "mother"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "client visit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parents visit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "visit "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parents"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "meeting parents"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grocery shopping"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "shopping"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "grocery"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "groceries"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "form"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "admission form"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "admission"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "school admission form"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "airplane"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ship"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plane"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "train"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "book tickets"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "book"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "beach"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "family vacation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "vacation"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "family trip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "family"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "trip"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "great view"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "take inter view"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "give interview"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "interview"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "new episode"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exams are comming"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "exams"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "study for exams"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "study"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "party with friends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "friends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "party"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "musical event"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "music"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "event"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "day"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "morning"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "night"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fun"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "running"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "run"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jogging"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "testing"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "test"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "food"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fod"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jod"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "go for jogging"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fun can come to you"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "life is fun "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "this is going to"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "come we will go"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "stocks prices"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "share"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "market "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "king of the jungle"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "haow do yo do"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fun night"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parent meeting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "parent teachers meeting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "pick up"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "drop kids at school"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "drop kids"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "school"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jessy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "john"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jordan"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jetendar"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "game night with rakesh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "big game"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gym payment"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "join gym"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "take dog to vet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dog are good"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lion"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "science"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lunch with friends"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lunch"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "meeting at 12"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "meeting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "client"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "payment"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "credit card bill pay ment"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "payment of bills"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bill paymet"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bill "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "electrician need to be called"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "plumber is needed"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "fix house"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bike repaire"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "car wash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "temple visit"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "go to church"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lord created us all"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "life is great"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "aniversary"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "need to shop"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "client meeting"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "have a meeting "
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "jobs are hard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "life can be a mess"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "disco"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "women"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "man"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "great"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "i am"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "lord"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dog"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "rod"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "god"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "god is great"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ehh"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "what"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "waht"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hi"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yo"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "yo oy oy"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "la la la"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ha ha ha"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "OPERATION",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "right"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "write"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "read"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "todo",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "operation",
+                            "type": "OPERATION",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.594493744929.249272769615"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Slot.594493744929.249272769615",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "please select from read or write"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Do you want me to read or write in your to do list"
+                    }
+                ]
+            }
+        ]
+    }
+}

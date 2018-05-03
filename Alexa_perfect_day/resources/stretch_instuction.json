@@ -1,0 +1,38 @@
+{
+	"stretch": {
+		"morning": {
+			"text": [
+				"first, Full-Body Stretch  <break time=\"1s\"/> On an inhale, reach your arms overhead, clasp your fingers together, flip your palms out toward the wall behind your head, and push your palms away from you. At the same time, reach your toes away from your arms, keeping your knees straight. Hold this fully stretched position. one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop ",
+				"second, Figure-Four Stretch <break time=\"1s\"/> Cross your right foot over your left knee, making the shape of the number 4. Slowly bend your left knee up toward the ceiling, either keeping the left foot on your mattress or hugging it in toward your chest. Be sure to keep your right knee bent out to the right as you try to maintain this shape. one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop. Now do it for the other leg .<break time=\"2s\"/> one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop ",
+				"third, Knees-to-Chest Stretch <break time=\"1s\"/> From a supine position, bend your knees until the soles of your feet are on the bed. Use your hands to draw one knee in toward your chest at a time, wrapping your arms around both shins. Relax your head on your pillow and hold this \"self-hug\" one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"forth, Supine Twist <break time=\"1s\"/> From Knees-to-Chest Stretch, release your grip of your shins and let your arms fall out to a T shape on either side of your torso. Use your core to guide your legs over to rest on one side, keeping your knees bent and shoulders planted down into your mattress. If it's easy on your neck, gaze toward the opposite side.<break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop. Now do it for the other side<break time=\"2s\"/> one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"fifth, Bed-to-Floor <break time=\"1s\"/> Swing your feet over the side of the bed so that they touch the floor. Keeping your knees bent, hang your head and arms down to the floor, rounding your back over your knees. Let your head and arms dangle to the floor. Now hold, one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"great you have completed the stretch, call me again for motivational thought, stretch or for to do list"
+			],
+			"link": "https://s3.amazonaws.com/imagesperfectday/Morning_Stretch.PNG"
+
+		},
+		"afternoon": {
+			"text": [
+				"first, Neck Stretch <break time=\"1s\"/> lower ear to shoulder slowly roll chin on chest up to other shoulder and back again . <break time=\"1s\"/> keep repeating <break time=\"1s\"/> Turn head look over shoulder. hold <break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop. Now reapeat for other side <break time=\"2s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"second, Hand Stretch <break time=\"1s\"/> press hands together at chest height. Lower hands toward lap until you fell stretch in wrists hold. <break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"third, Shoulder Stretch <break time=\"1s\"/> move arms overhead in climbing motion repeat <break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"forth, Lower back Stretch <break time=\"1s\"/> Stand with hands supporting low back. Gently arch your back hold <break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop ",
+				"great you have completed the stretch, call me again for motivational thought, stretch or for to do list"
+				],
+			"link": "https://s3.amazonaws.com/imagesperfectday/Office_Stretch.PNG"
+		},
+		"night": {
+			"text": [
+				"first, Seated Side Bend <break time=\"1s\"/> Sit on pillow in a cross-legged position. Place left hand on floor to side of hip, left elbow slightly bent. Extend right arm by ear.<break time=\"1s\"/>  Lean to left, keeping butt on floor, shoulders down.<break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop ",
+				"second, Sleeping Swan<break time=\"1s\"/> Sit on floor with pillow in front of you. Bend left knee, bringing sole of left foot to right inner thigh. Lift butt and extend right leg behind you.<break time=\"1s\"/> Staying centered, gently hinge forward from hips, placing head on pillow. Extend arms forward, elbows slightly bent.<break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop. Now repeat for other leg <break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"third, Happy Baby<break time=\"1s\"/> Lie faceup. Bend knees into chest and grab inside edges of feet with hands, palms out.<break time=\"1s\"/> Bring knees out to sides, then lower toward armpits, keeping heels above knees, feet flexed.<break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"forth, Bridge<break time=\"1s\"/> Lie faceup with knees bent, feet flat on floor, arms extended by sides, palms up.<break time=\"1s\"/> Keeping shoulders down, engage abs and press into heels to lift hips and back to form a diagonal line from shoulders to knees.<break time=\"1s\"/>one<break time=\"1s\"/> two<break time=\"1s\"/> three<break time=\"1s\"/>stop",
+				"great you have completed the stretch, call me again for motivational thought, stretch or for to do list"
+				
+			],
+			"link": "https://s3.amazonaws.com/imagesperfectday/night_stretch.PNG"
+
+		}
+	}
+}

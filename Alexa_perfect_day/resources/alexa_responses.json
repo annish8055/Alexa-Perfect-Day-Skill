@@ -1,0 +1,14 @@
+{
+  "responses":{
+    "welcomeMorningFirst":"<a> good morning <name>. what a great day. lets start this morning with 5 deep breaths.<break time=\"1s\"/> one <break time=\"1s\"/>two<break time=\"1s\"/>three<break time=\"1s\"/>four<break time=\"1s\"/>five<break time=\"1s\"/> great! <thought>. <break time=\"1s\"/>would you like to do the morning stretches",
+    "welcomeMorningSecond":"<a> welcome back <name>. select from motivation, to do list or stretching",
+    "welcomeAfternoonFirst":"<a> good afternoon <name>. looks like its a busy day for you. you know what, <thought> <break time=\"1s\"/>would you like to do some stretches",
+    "welcomeAfternoonSecond":"<a> welcome back <name>. select from motivation, to do list or stretching",
+    "welcomeNightFirst":"<a> hi <name>. looks like you worked really hard today. you know what, <thought>.<break time=\"1s\"/> would you like to do some night stretch for better sleep",
+    "welcomeNightSecond":"<a> welcome back <name>. beautiful night today. select from motivation, to do list or night stretching",
+    "help":"Hi i am perfect day, i can keep you motivated by give motivational thoughts , i can also read or write to your To do list and i can also help you stretch so that you can relax more , please select from motivation , to do or stretch",
+    "error":"Sorry i was not able to understand , I can tell u a motivational thought, help you stretch or read or write to your to do list",
+    "good_bye":"ok bye! don't be shy to call me again",
+    "noaccess":"Sorry i don't have the permission to access your lists, i have sent the access request to your companion app. please grant permissions to use this feature"
+  }
+  }
